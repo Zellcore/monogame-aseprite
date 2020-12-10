@@ -6,9 +6,9 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'manbeardgames', // Usually your GitHub org/user name.
-  projectName: 'monogame-aseprite.github.io', // Usually your repo name.
+  projectName: 'monogame-aseprite', // Usually your repo name.
   url: 'https://manbeardgames.github.io',
-  baseUrl: '/monogame-aseprite.github.io/',
+  baseUrl: '/monogame-asepritegit/',
   themeConfig: {
     sidebarCollapsible: true,
     colorMode: {
