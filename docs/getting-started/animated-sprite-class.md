@@ -9,7 +9,11 @@ This serves to document the `AnimatedSprite` class that you can use out-of-the-b
 ## Overview
 The `AnimatedSprite` class is an out-of-the-box solution for using the `AsepriteDocument` imported from the content pipeline.  The purpose of it is to give users a quick way of making use of the document imported, as well as an example of what you can do with it.
 
-**It is an out-of-the-box solution and will not fit every need that a user may have when it comes to their sprite animations.**
+:::note Out-of-the-box Solutions
+
+As stated, the `AniamtedSprite is an out-of-the-box solution.  It is not going to fit every need that a user may have when it comes to animating their sprites.  With that in mind, it is designed to provide most of what you would need as a foundation.  Feel free to submit feedback on the GitHub repository for any suggestions on the class design and function.
+
+:::
 
 Below we'll go over how to instantiate a new instance of the class using the `AsepriteDocument`, and go over how to play an animation, and the various properties that are accessable to the class.
 

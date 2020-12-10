@@ -64,4 +64,4 @@ If that checkbox doesn't go away, this means the value didn't "lock in" even tho
 
 :::
 
-In the next documnet, we'll go over loading the imported Aseprite document in your game and how to use it.
+In the next document, we'll go over loading the imported Aseprite document in your game and how to use it.
