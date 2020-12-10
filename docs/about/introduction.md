@@ -12,6 +12,6 @@ The contents of the import process provides you with an `AsepriteDocument` objec
 
 MonoGame.Aseprite also provides an out-of-the-box `AnimatedSprite` class that can be used with the imported content to get you start quickly if you prefer this as well.
 
-To get started using Monogame.Aseprite, please refer to the [Installation](getting-started/installation.md) document in the sidebar. If you are on mobile, the sidebar is instead replaced with the menu in the bottom right of your screen.
+To get started using Monogame.Aseprite, please refer to the [Installation](getting-started/installation) document in the sidebar. If you are on mobile, the sidebar is instead replaced with the menu in the bottom right of your screen.
 
 
