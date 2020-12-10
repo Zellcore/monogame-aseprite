@@ -8,7 +8,7 @@ module.exports = {
   organizationName: 'manbeardgames', // Usually your GitHub org/user name.
   projectName: 'monogame-aseprite', // Usually your repo name.
   url: 'https://manbeardgames.github.io',
-  baseUrl: '/monogame-asepritegit/',
+  baseUrl: '/monogame-aseprite/',
   themeConfig: {
     sidebarCollapsible: true,
     colorMode: {
@@ -40,44 +40,19 @@ module.exports = {
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository'
+        },
+        {
+          href:'https://twitter.com/manbeardgames',
+          position: 'right',
+          className: 'header-twitter-link',
+          'aria-label': 'Manbeardgames Twitter'
         }
       ],
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: '/',
-            },
-            {
-              label: 'Second Doc',
-              to: '/doc2/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      links: [],
+      copyright: `Copyright © ${new Date().getFullYear()} Christopher Whitley Built with Docusaurus.`,
     },
     prism: {
       additionalLanguages: ['csharp'],
