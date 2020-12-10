@@ -4,9 +4,6 @@ title: Installation
 sidebar_label: Installation
 ---
 
-import {siteVariables} from '@site/src/version';
-
-
 This serves to document how to download and add the **MonoGame.Aseprite** library to your project.
 
 ## Prerequisites
