@@ -34,7 +34,7 @@ There are also various **Processor Paramters** shown, which we'll go over in det
 
 :::note
 
-If it says **Invalid / Missing Importer** and/or **Invalid / Missing Processor** instead, please ensure you followed the steps on the [Installation page](getting-started/installation.md) and added the reference to the `MonoGame.Aseprite.ContentPipeline.dll` in the MGCB Editor.
+If it says **Invalid / Missing Importer** and/or **Invalid / Missing Processor** instead, please ensure you followed the steps on the installation page and added the reference to the `MonoGame.Aseprite.ContentPipeline.dll` in the MGCB Editor.
 
 :::
 
