@@ -1,20 +1,21 @@
 ---
-id: installation
-title: Installation
-sidebar_label: Installation
+id: monogame38installation
+title: Installation (MonoGame 3.8)
+sidebar_label: Installation (MonoGame 3.8)
 ---
 
-This serves to document how to download and add the **MonoGame.Aseprite** library to your project.
+This serves to document how to download and add the **MonoGame.Aseprite** library to your project when using MonoGame 3.8 with .NET Core.  
+
+:::note
+
+These steps are for MonoGame 3.8 using .NET Core.  If you are using MonoGame 3.8 with .NET Core, please refer to the installation steps found in the [Installation (MonoGame 3.7)](monogame37installation) document.
+
+:::
 
 ## Prerequisites
 * [MonoGame 3.8](https://www.monogame.net/downloads/)
 * [A MonoGame project](https://docs.monogame.net/articles/getting_started/2_creating_a_new_project_vs.html)
 
-:::note
-
-Support for MonoGame 3.7 has ended with the current version of MonoGame.Aseprite.
-
-:::
 
 ## Downloading
 **Monogame.Aseprite** is distributed via a NuGet package.  You can add the NuGet package to your project from within your IDE, such as the NuGet Package Manger in Visual Studio.  Just search for [MonoGame.Aseprite](https://www.nuget.org/packages/MonoGame.Aseprite/)
@@ -22,10 +23,10 @@ Support for MonoGame 3.7 has ended with the current version of MonoGame.Aseprite
 Or if you prefer to add it using a command line interface, you can do one of the following
 
 **Package Manager CLI**  
-```Install-Package MonoGame.Aseprite -Version 2.0.0-beta```
+```Install-Package MonoGame.Aseprite -Version 2.0.2-beta```
 
 **.NET CLI**  
-```dotnet add package MonoGame.Aseprite --version 2.0.0-beta```
+```dotnet add package MonoGame.Aseprite --version 2.0.2-beta```
 
 Installing the package does two things.
 

@@ -6,7 +6,8 @@ module.exports = {
       ],
       'Getting Started': 
       [
-        'getting-started/installation',
+        'getting-started/monogame37installation',
+        'getting-started/monogame38installation',
         'getting-started/importing-aseprite-file',
         'getting-started/using-in-game',
         'getting-started/animated-sprite-class'

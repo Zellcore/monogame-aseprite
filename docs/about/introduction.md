@@ -1,17 +1,62 @@
 ---
 id: introduction
-title: Introduction
+title: MonoGame.Aseprite
 sidebar_label: Introduction
 slug: /
 ---
 
-## What is MonoGame.Aseprite
-**MonoGame.Aseprite** is an extension for the [MonoGame Framework](https://www.monogame.net) that allows you to import [Aseprite](https://www.aseprite.org/) \*.ase/\*.aseprite files using the MGCB Editor to use in your game project.
+![](https://raw.githubusercontent.com/manbeardgames/monogame-aseprite/gh-pages-develop/static/img/monogame_aseprite_banner_800_200.png)
 
-The contents of the import process provides you with an `AsepriteDocument` object, who's properties contain the values of the Asperite file imported. This allows you to use this object in your code in a way that makes sense for your project.
+MonoGame.Aseprite is an extension for the [MonoGame Framework](https://www.monogame.net) that allows you to import [Aseprite](https://www.aseprite.org) \*.ase/\*.aseprite files into your game project using the MGCB Editor (also known as the Content Pipeline Tool).
 
-MonoGame.Aseprite also provides an out-of-the-box `AnimatedSprite` class that can be used with the imported content to get you start quickly if you prefer this as well.
+No need to export a sprite sheet from Aseprite and have to deal with a PNG image file and a JSON file. With MonoGame.Aseprite the import process takes the single Aseprite file and generates a `AsepriteDocument` object, containing a `Texture2D` generated sprite sheet and all the data you need to animate those sweet pixels in game.
 
-To get started using Monogame.Aseprite, please refer to the [Installation](getting-started/installation) document in the sidebar. If you are on mobile, the sidebar is instead replaced with the menu in the bottom right of your screen.
+MonoGame.Aseprite also provides an out-of-the-box AnimatedSprite class that can be used with the imported `AsepriteDocument` to get you started quickly if you prefer this as well.
+
+
+## Getting Started
+* For **MonoGame 3.7.1** (.NET Framework >= 4.5) users, please refer to the [installation documentation here](getting-started/monogame37installation).
+* For **MonoGame 3.8** (.NET Core) users, please refer to the [installation documentation here](getting-started/monogame38installation).
+
+## Example Usage
+The following is a quick example of using MonoGame.Aseprite in your game.
+
+**Add Using Statements**
+```csharp
+//  Add using statements
+using MonoGame.Aseprite.Documents;
+using MonoGame.Aseprite.Graphics;
+```
+
+**Load the Content**
+```csharp
+//  Load the AsepriteDocument
+AsepriteDocument aseDoc = Content.Load<AsepriteDocument>("myAseFile");
+
+//  Create a new AnimatedSprite from the document
+AnimatedSprite sprite = new AnimatedSprite(aseDoc);
+
+```
+
+**Update the AnimatedSprite Instance**
+```csharp
+sprite.Update(gameTime);
+```
+
+**Drawing the AnimatedSprite**
+```csharp
+sprite.Render(spriteBatch);
+```
+
+
+## What Next?
+* Read the [documentation](https://manbeardgames.com/monogame-aseprite).
+* Join the [Discord](https://discord.gg/8jFvHhuMJU) to ask questions or keep up to date.
+* Submit an [issue on GitHub](https://github.com/manbeardgames/monogame-aseprite/issues).
+* Follow me on [Twitter @manbeardgames](https://www.twitter.com/manbeardgames).
+
+## Patreon Support
+[![image](/img/patreon.png)](https://www.patreon.com/manbeardgames)
+If you would like, you can support me and this project on Patreon by clicking the image above. Thank you to all who support.
 
 

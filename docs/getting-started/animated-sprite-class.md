@@ -29,6 +29,27 @@ AsepriteDocument aseprite = Content.Load<AsepriteDocument>("player_animations");
 AnimatedSprite sprite = new AnimatedSprite(aseprite);
 ```
 
+## Updating the Instnace
+You will need to call the `Udpate` method each game update cycle in order for the animations to actual update and play correctly.  To update methods are provided.  The first `Update(GameTime)` takes a `GameTime` instance.  The other overload method is `Update(float)` and takes a delta time value which is the total seconds since the last update.  This is provided for users who pre calculate the delta time and would rather use that one. Here are examples of both being used
+
+```csharp
+sprite.Update(gameTime);
+```
+
+```csharp
+float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
+sprite.update(deltaTime);
+```
+
+## Rendering the Instance
+When you're ready to render the animated sprite, you just need to call the `Render(SpriteBatch)` method, passing in the instance of the `SpriteBatch` class you are using for drawing to the screen.  Here is an example
+
+```csharp
+spriteBatch.Begin();
+sprite.Render(spriteBatch);
+spriteBatch.End();
+```
+
 ## Playing an Animation
 Once you've created a new `AnimatedSprite` instance, to play an animation, just called the `AnimatedSprite(string)` method, passing in the name of the animation to play.  Here is an example
 
