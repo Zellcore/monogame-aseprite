@@ -55,8 +55,5 @@ sprite.Render(spriteBatch);
 * Submit an [issue on GitHub](https://github.com/manbeardgames/monogame-aseprite/issues).
 * Follow me on [Twitter @manbeardgames](https://www.twitter.com/manbeardgames).
 
-## Patreon Support
-[![image](/img/patreon.png)](https://www.patreon.com/manbeardgames)
-If you would like, you can support me and this project on Patreon by clicking the image above. Thank you to all who support.
 
 

@@ -1,6 +1,7 @@
 ---
 id: monogame_aseprite_contentreaders
 sidebar_label: Namespace Overview
+title: MonoGame.Aseprite.ContentReaders
 hide_title: true
 slug: monogame_aseprite_contentreaders
 ---

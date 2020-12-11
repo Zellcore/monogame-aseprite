@@ -1,6 +1,7 @@
 ---
 id: animatedsprite_addanimation_string__int__int_
 sidebar_label: AddAnimation(string, int, int)
+title: AddAnimation(string, int, int)
 hide_title: true
 slug: animatedsprite_addanimation_string__int__int_
 ---

@@ -1,6 +1,7 @@
 ---
 id: animatedsprite_addanimation_animation_
 sidebar_label: AddAnimation(Animation)
+title: AddAnimation(Animation)
 hide_title: true
 slug: animatedsprite_addanimation_animation_
 ---
