@@ -23,10 +23,10 @@ These steps are for MonoGame 3.8 using .NET Core.  If you are using MonoGame 3.8
 Or if you prefer to add it using a command line interface, you can do one of the following
 
 **Package Manager CLI**  
-```Install-Package MonoGame.Aseprite -Version 2.0.2-beta```
+```Install-Package MonoGame.Aseprite -Version 2.0.3.3```
 
 **.NET CLI**  
-```dotnet add package MonoGame.Aseprite --version 2.0.2-beta```
+```dotnet add package MonoGame.Aseprite --version 2.0.3.3```
 
 Installing the package does two things.
 

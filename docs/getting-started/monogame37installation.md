@@ -25,7 +25,7 @@ These steps are for MonoGame 3.7.1 using the .NET Framework >= 4.5.  If you are 
 Or if you prefer to add it using a command line interface
 
 **Package Manager CLI**  
-```Install-Package MonoGame.Aseprite -Version 2.0.2-beta```
+```Install-Package MonoGame.Aseprite -Version 2.0.3.3```
 
 Installing the package does two things.
 
