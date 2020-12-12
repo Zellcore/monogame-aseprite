@@ -1,16 +1,15 @@
 ---
-id: animation_animation_string__int__int_
-sidebar_label: Animation(string, int, int)
+id: animation_animation_string__int__int__animationloopdirection_
+sidebar_label: Animation.Animation(string, int, int, AnimationLoopDirection)
 hide_title: true
-slug: animation_animation_string__int__int_
+slug: animation_animation_string__int__int__animationloopdirection_
 ---
 #### [MonoGame.Aseprite](index 'index')
 ### [MonoGame.Aseprite.Graphics](monogame_aseprite_graphics 'MonoGame.Aseprite.Graphics').[Animation](animation 'MonoGame.Aseprite.Graphics.Animation')
-## Animation(string, int, int) Constructor
-Creates a new [Animation](animation 'MonoGame.Aseprite.Graphics.Animation') structure with a forward  
-animation direction.  
+## Animation(string, int, int, MonoGame.Aseprite.Graphics.AnimationLoopDirection) Constructor
+Creates a new [Animation](animation 'MonoGame.Aseprite.Graphics.Animation') structure  
 ```csharp
-public Animation(string name, int from, int to);
+public Animation(string name, int from, int to, MonoGame.Aseprite.Graphics.AnimationLoopDirection direction);
 ```
 #### Parameters
 `name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
@@ -21,4 +20,7 @@ The index of the frame that this animation starts on.
   
 `to` [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  
 The index of the frame that this animation ends on.  
+  
+`direction` [AnimationLoopDirection](animationloopdirection 'MonoGame.Aseprite.Graphics.AnimationLoopDirection')  
+The direction in which the animation loops through its frames.  
   

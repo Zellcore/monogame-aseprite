@@ -14,3 +14,5 @@ slug: monogame_aseprite_graphics
 - [Frame](frame 'MonoGame.Aseprite.Graphics.Frame')
 - [Slice](slice 'MonoGame.Aseprite.Graphics.Slice')
 - [SliceKey](slicekey 'MonoGame.Aseprite.Graphics.SliceKey')
+### Enums
+- [AnimationLoopDirection](animationloopdirection 'MonoGame.Aseprite.Graphics.AnimationLoopDirection')

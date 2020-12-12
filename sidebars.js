@@ -10,7 +10,8 @@ module.exports = {
         'getting-started/monogame38installation',
         'getting-started/importing-aseprite-file',
         'getting-started/using-in-game',
-        'getting-started/animated-sprite-class'
+        'getting-started/animated-sprite-class',
+        'getting-started/migratingv1v2'
       ],
   },
   apiSideBar: {

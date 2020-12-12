@@ -47,7 +47,6 @@ When importing an Aseprite file, MonoGame.Aseprite provides various paramters th
 | Inner Padding  | Adds extra space inside each frame's edges. The value given is the number of pixels (i.e. 10 = 10 pixels). |
 | Merge Duplicate Frames | When `true`, duplicate frames will be merged into one frame. Setting this can decrease the final size of the generated spritesheet if there are duplicate frames in your aseprite file animations. |
 | Only Visible Layers | When `true`, only layers that are visible in the Aseprite file will be included in the generated spritesheet. |
-| Output Spritesheet  | You can provide a file path here. If one is provided, the generated spritesheet will be output to the file path as a PNG file. |
 | Sheet Type | Determines the type of spritesheet that is generated.  
 | |`HorizontalSheet` will produce a spritesheet with a single row and a column for each frame. |
 | |`VerticalSheet` will produce a spritesheet with a single column and a row for each frame.  |

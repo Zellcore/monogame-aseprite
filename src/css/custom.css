@@ -51,11 +51,11 @@ html[data-theme='dark'] .header-github-link:before {
   width: 24px;
   height: 24px;
   display: flex;
-  background: url("/static/img/twitter_logo.svg")
+  background: url("/img/twitter_logo.svg")
     no-repeat;
 }
 
 html[data-theme='dark'] .header-twitter-link:before {
-  background: url("/static/img/twitter_logo.svg")
+  background: url("/img/twitter_logo.svg")
     no-repeat;
 }

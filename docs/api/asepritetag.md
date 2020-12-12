@@ -19,5 +19,6 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 - [Color](asepritetag_color 'MonoGame.Aseprite.Documents.AsepriteTag.Color')
 - [Direction](asepritetag_direction 'MonoGame.Aseprite.Documents.AsepriteTag.Direction')
 - [From](asepritetag_from 'MonoGame.Aseprite.Documents.AsepriteTag.From')
+- [IsOneShot](asepritetag_isoneshot 'MonoGame.Aseprite.Documents.AsepriteTag.IsOneShot')
 - [Name](asepritetag_name 'MonoGame.Aseprite.Documents.AsepriteTag.Name')
 - [To](asepritetag_to 'MonoGame.Aseprite.Documents.AsepriteTag.To')
